@@ -1,0 +1,90 @@
+body {
+    background-image: url("/img/trang.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:center;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 24px 100px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(149, 0, 255);
+}
+
+form {
+background-color: white;
+padding: 20px;
+margin: 50px auto;
+margin-top: 100px;
+max-width: 800px;
+border-radius: 5px;
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+stroke: rgb(0, 0, 0);
+}
+.log{
+    opacity: inherit;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 16px;
+    font-weight: bold;
+    }
+    label.head {
+        text-align: center;
+        }
+    
+    input[type="text"], input[type="password"] , input[type="file"] ,input[type="date"],textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left : 18rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    width: 40%;
+    font-size: 16px;
+    color: #555;
+    stroke: rgb(149, 0, 255);
+    }
+
+button[type="submit"] {
+background-color: #165af7b9;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+margin-top: 20px;
+align-items: center;
+margin-left: 5rem;
+}
+
+button[type="submit"]:hover {
+    opacity: 0.8;
+    background-color: #31e32bce;
+    text-align: center;
+    margin-left: 100px;
+    text-align: center;
+    align-items: center;
+}
+button[type="submit"].submit {
+    text-align: center;
+margin-left: 35%;
+}
+.message {
+    text-align: center;
+    color: #666;
+    margin-top: 10px;
+}
+.message:hover{
+    opacity: 0.8;
+    color: #000000ce;
+    text-align: center;
+}
